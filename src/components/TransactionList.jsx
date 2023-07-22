@@ -11,7 +11,7 @@ export const TransactionList = () => {
       <ul id="list" className="list">
         {transactions.map(transaction => (
           <Transaction transaction={transaction} key={transaction.id} />
-        ))};
+        ))}
       </ul>
     </div>
   )
